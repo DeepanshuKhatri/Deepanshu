@@ -1,0 +1,52 @@
+
+img{
+    height:150px;
+    width:250px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin:100px auto;
+    width:500px;
+    height:150px;
+    box-shadow: 2px 2px grey inset;
+}
+audio{
+    color:blue;
+}
+.btn{
+    height:20px;
+    width: 20px;
+    margin:4px;
+    padding:4px;
+    cursor:pointer;
+    border-radius:100%;
+    &:hover{
+        border:1px solid black;
+    }
+}
+.image{
+    width:250px;
+}
+.player{
+    width:250px;
+}
+.details{
+    display:block;
+    margin-left:20px;
+
+}
+.controls{
+    display: flex;
+    justify-content: center;
+}
+.player{
+    background-color: rgba(31, 21, 21, 0.392);
+}
+*{
+    color:white;
+}
+
+.list{
+    background-color:black;
+}
